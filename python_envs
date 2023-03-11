@@ -1,3 +1,19 @@
+ 846  cd Desktop
+  847  cd Tech_Work
+  848  cd install
+  849  cd python_envs
+  850  python3 --version
+  851  pwd
+  852  mkdir -p welcome
+  853  pwd
+  854  pip3 install virtualenv
+  855  cd ..
+  856  virtualenv -p python3 python_envs
+  857  source python_envs/bin/activate
+(python_envs) welcome@welcomes-MacBook-Pro install % 
+
+
+
 1. Install Python3
 Install Python3 and then check to make sure the python version is 3+
 % brew install python3
