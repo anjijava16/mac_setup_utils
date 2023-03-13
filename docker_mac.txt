@@ -1,0 +1,13 @@
+Problem :
+welcome@welcomes-MacBook-Pro ~ % docker run hello-world
+docker: Cannot connect to the Docker daemon at unix:///Users/welcome/Library/Containers/com.docker.docker/Data/docker.raw.sock. Is the docker daemon running?.
+See 'docker run --help'.
+
+
+
+# Fix:
+Go to Spotlight Search,
+Type: Docker and open the App
+You would see it on your Apple Menu bar,
+Make sure you see: "Docker is running"
+
