@@ -1,0 +1,22 @@
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64
+sudo install minikube-darwin-arm64 /usr/local/bin/minikub
+
+(Should start Docker in Mac)
+minikube start
+
+minikube dashboard
+
+minikube dashboard --url
+
+
+
+Manage your cluster
+Pause Kubernetes without impacting deployed applications:
+
+minikube pause
+Unpause a paused instance:
+
+minikube unpause
+Halt the cluster:
+
+minikube stop
